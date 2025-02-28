@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Cá Nhân</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cột trái -->
+        <div class="left-section">
+            <div class="profile-container">
+                <img src="123456789.jpg" alt="Ảnh đại diện" class="profile-pic" onclick="toggleImage()">
+            </div>
+            <div class="box">
+                <h2>Thông tin liên hệ</h2>
+                <p>📍 Địa chỉ: Khu phố 1, Đường N5, Phường Hòa Phú, TP Thủ Dầu Một, Bình Dương</p>
+                <p>📞 Số điện thoại: 0356034562</p>
+                <p>✉️ Email: <a href="mailto:23050172@student.bdu.edu.vn">23050172@student.bdu.edu.vn</a></p>
+                <p>🔗 Facebook: <a href="https://www.facebook.com/huu.vuong.116819" target="_blank">Facebook cá nhân</a></p>
+            </div>
+            
+            <div class="box">
+                <h3>Kỹ năng</h3>
+                <ul class="list">
+                    <li class="list-item">Giao tiếp ★★★★★</li>
+                    <li class="list-item">Teamwork ★★★★☆</li>
+                    <li class="list-item">Tin học ★★★☆☆</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Sở thích</h3>
+                <div class="hobbies">
+                    <ul>
+                        <li>📖 Đọc sách</li>
+                        <li>🎵 Nghe nhạc</li>
+                        <li>✈️ Du lịch</li>
+                    </ul>
+                    <ul>
+                        <li>⚽ Đá bóng</li>
+                        <li>🎱 Chơi Billiards</li>
+                        <li>🏊 Bơi lội</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="right-section">
+            <div class="box">
+                <h1>Đỗ Hữu Vương</h1>
+                <h2>Vị trí ứng tuyển</h2>
+                <p>Muốn ứng tuyển vào vị trí lập trình viên kiêm thiết kế web và đồ họa.</p>
+            </div>
+
+            <div class="box">
+                <h3>Học vấn</h3>
+                <p>🎓 Đại học: Trường Đại Học Bình Dương</p>
+                <p>📌 Chuyên ngành: CNTT ✔</p>
+            </div>
+
+            <div class="box">
+                <h3>Kinh nghiệm làm việc</h3>
+                <p>🏢 Công ty Chuck - Pha Chế</p>
+                <p>🏢 Công ty Phở Đình - Phục Vụ</p>
+                <p>🎨 Thiết kế logo</p>
+                <p>💻 Thiết kế web cơ bản</p>
+            </div>
+
+            <div class="box project">
+                <h3>Dự án cá nhân</h3>
+                <div class="project-card">
+                    <img src="12345678.png" alt="Ứng dụng giao dịch chứng khoán">
+                    <div class="project-info">
+                        <h4>Ứng dụng Giao dịch Chứng khoán Convid</h4>
+                        <p>Ứng dụng giúp bạn dễ dàng đầu tư, thu lợi nhuận và học hỏi kinh nghiệm giao dịch.</p>
+                        <a href="#" class="btn">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleImage() {
+            document.querySelector('.profile-pic').classList.toggle('zoom');
+        }
+    </script>
+</body>
+</html>
