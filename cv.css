@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section,
+.right-section {
+  padding: 20px;
+}
+
+.left-section {
+  width: 35%;
+  background: #f0ebe3;
+  text-align: center;
+}
+
+.right-section {
+  width: 65%;
+  background: white;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic.zoom {
+  transform: scale(1.5);
+}
+
+.box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.03);
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-item {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #e8f0ff;
+  border-radius: 8px;
+}
+
+.project-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h4 {
+  margin: 0 0 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #007bff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
